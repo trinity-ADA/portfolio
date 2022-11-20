@@ -1,0 +1,109 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    padding: 50px 150x;
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.luggage {
+    width: 60%;
+    background-color: rgba(237,239,241,255);
+    padding: 10px 50px 50px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+.name {
+    font-size: small;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+ul.follow-me {
+    display: flex;
+}
+
+ul.follow-me li {
+    margin-left: 25px;
+
+}
+
+ul.follow-me li a {
+    color: black;
+}
+
+ul.follow-me li button {
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.pic img {
+    width: 250px;
+}
+
+div.my-drive {
+    margin-bottom: 50px;
+}
+
+div.my-drive-speech {
+    margin-left: 25px;
+    width: 380px;  
+}
+
+.my-drive p {
+    opacity: 0.7;
+}
+
+div.about-me {
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.about-me-text {
+    width: 300px;
+}
+
+.about-me-text p {
+    opacity: 0.7;
+}
+
+div.my-skills {
+    width: 50%;
+    
+    margin-right: 15px;
+}
+
+div.my-skills span{
+    display: flex;
+}
+
+div.my-skills span li {
+    margin: 2px;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 3px 3px;
+    font-size: 10px;
+    font-weight: 550;
+}
