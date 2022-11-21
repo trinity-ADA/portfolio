@@ -1,8 +1,9 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
-    padding: 50px 150x;
+    padding: 50px 50x;
     font-size: 15px;
 }
+
 
 .flex {
     display: flex;
@@ -11,8 +12,9 @@ body {
 .luggage {
     width: 60%;
     background-color: rgba(237,239,241,255);
-    padding: 10px 50px 50px;
+    padding: 10px 50px;
     margin: 0 auto;
+    border-radius: 15px;
 }
 
 a {
